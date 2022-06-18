@@ -11,7 +11,7 @@ export default function ArticleItem({ article = {} }) {
 		>
 			<a className={Styles.card}>
 				<h3>{article.title} &rarr;</h3>
-				<p>{article.excerpt}</p>
+				<p>{article.body}</p>
 			</a>
 		</Link>
 	);
